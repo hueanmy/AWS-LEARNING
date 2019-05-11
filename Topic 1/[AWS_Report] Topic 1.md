@@ -5,7 +5,7 @@ This chapter covers
 - Overview of AWS
 - Benifits of using AWS.
 - Example of what you can do with AWS.
-- Creating and setting up an AWS account.
+- Exploring AWS services.
 ```
 ### 1. Cloud computing.
 
@@ -139,6 +139,33 @@ Differences between AWS, Microsoft Azure, Google Cloud Platform, and OpenStack A
 ![](imgs/difference aws azure google cloud and openstack.PNG)
 
 ![](imgs/difference aws azure google cloud and openstack_2.PNG)
+
+###### :+1: Exploring AWS services.
+
+
+
+###### :+1: Interacting with AWS.
+
+When you interact with AWS to configure or use services, you make calls to the API. 
+Next, we’ll give you an overview of the tools available to make calls to the AWS API.
+You can compare the ability of these tools to automate your daily tasks.
+
+- **_Management console_**: 
+
+
+
+- **_Command line interface_**: 
+
+
+
+- **_SDKs_**: 
+
+
+- **_Blueprints_**: 
+
+
+
+
 
 
     
