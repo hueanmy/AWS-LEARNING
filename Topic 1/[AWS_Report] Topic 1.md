@@ -189,6 +189,9 @@ and networking services are billed similarly to electricity.
 
 ```
 
+Resource
+--------
+
 
 
     
