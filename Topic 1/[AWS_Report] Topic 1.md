@@ -168,7 +168,26 @@ You can compare the ability of these tools to automate your daily tasks.
 
 ![](imgs/blueprints.PNG)
 
+Summary
+----------
+```
+■ Amazon Web Services (AWS) is a platform of web services offering solutions for
+computing, storing, and networking that work well together.
+■ Cost savings aren’t the only benefit of using AWS. You’ll also profit from an
+innovative and fast-growing platform with flexible capacity, fault-tolerant services,
+and a worldwide infrastructure.
+■ Any use case can be implemented on AWS, whether it’s a widely used web application
+or a specialized enterprise application with an advanced networking
+setup.
+■ You can interact with AWS in many different ways. You can control the different services
+by using the web-based GUI; use code to manage AWS programmatically from
+the command line or SDKs; or use blueprints to set up, modify, or delete your infrastructure
+on AWS.
+■ Pay-per-use is the pricing model for AWS services. Computing power, storage,
+and networking services are billed similarly to electricity.
+■ Creating an AWS account is easy. Now you kn
 
+```
 
 
 
