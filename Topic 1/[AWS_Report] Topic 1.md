@@ -134,7 +134,10 @@ Following are some common features of cloud providers:
       ■ Graphical user interface
       ■ Command-line interface
       
-Differences between AWS, Microsoft Azure, Google Cloud Platform, and OpenStack AWS Azure, Google Cloud
+Differences between AWS, Microsoft Azure, Google Cloud Platform, and OpenStack AWS Azure, Google Cloud.
+
+|        |  AWS  |  Azure  |  Google cloud platform  |  OpenStack  |
+|--------|-------|---------|
 
 
 
