@@ -125,7 +125,14 @@ As mentioned earlier, you can be billed in several ways:
 
 ###### :+1: Comparing alternatives.
 
-
+Following are some common features of cloud providers:
+      
+      ■ Virtual servers (Linux and Windows)
+      ■ Object store
+      ■ Load balancer
+      ■ Message queuing
+      ■ Graphical user interface
+      ■ Command-line interface
 
 
 
