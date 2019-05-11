@@ -120,6 +120,11 @@ As mentioned earlier, you can be billed in several ways:
       ■ Based on traffic—Traffic can be measured in gigabytes or in number of requests.
       
       ■ Based on storage usage—Usage can be either provisioned capacity (for example, 50 GB volume no matter how much you use) or real usage (such as 2.3 GB used).
+      
+- **_Pay-per-use opportunities_**: 
+
+###### :+1: Comparing alternatives.
+
 
 
 
