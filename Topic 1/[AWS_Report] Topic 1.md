@@ -137,6 +137,7 @@ Following are some common features of cloud providers:
 Differences between AWS, Microsoft Azure, Google Cloud Platform, and OpenStack AWS Azure, Google Cloud.
 
 ![](imgs/difference aws azure google cloud and openstack.PNG)
+
 ![](imgs/difference aws azure google cloud and openstack_2.PNG)
 
 
