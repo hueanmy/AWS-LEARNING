@@ -154,17 +154,19 @@ You can compare the ability of these tools to automate your daily tasks.
 
 - **_Management console_**: 
 
-
+![](imgs/management cosole.png)
 
 - **_Command line interface_**: 
 
-
+![](imgs/command line.png)
 
 - **_SDKs_**: 
 
 
+
 - **_Blueprints_**: 
 
+![](imgs/blueprints.PNG)
 
 
 
