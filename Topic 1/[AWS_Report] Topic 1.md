@@ -72,8 +72,13 @@ What’s the most important advantage of using AWS? Cost savings, you might say.
 saving money isn’t the only advantage. Let’s look at other ways you can benefit from
 using AWS.
 >
-**_Easy to use_**:
+- **_Easy to use_**:
 AWS is designed to allow application providers, ISVs, and vendors to quickly and securely host your applications – whether an existing application or a new SaaS-based application. You can use the AWS Management Console or well-documented web services APIs to access AWS’s application hosting platform.
+
+>
+- **_Flexible_**:
+AWS enables you to select the operating system, programming language, web application platform, database, and other services you need. With AWS, you receive a virtual environment that lets you load the software and services your application requires. This eases the migration process for existing applications while preserving options for building new solutions.
+
     
 
 
