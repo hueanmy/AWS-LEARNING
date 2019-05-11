@@ -111,6 +111,13 @@ experience. Here is what’s included in the Free Tier:
       ■ Small database with 20 GB of storage, including backup.
       
 - **_Free Tier_**: 
+As mentioned earlier, you can be billed in several ways:
+
+      ■ Based on hours of usage—If you use a server for 61 minutes, that’s usually counted as 2 hours.
+      
+      ■ Based on traffic—Traffic can be measured in gigabytes or in number of requests.
+      
+      ■ Based on storage usage—Usage can be either provisioned capacity (for example, 50 GB volume no matter how much you use) or real usage (such as 2.3 GB used).
 
 
 
