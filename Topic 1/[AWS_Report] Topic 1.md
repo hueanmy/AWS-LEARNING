@@ -56,7 +56,6 @@ for Work, and Microsoft Office 365
 You can run any application on AWS by using one or a combination of services.The examples in this section will give you an idea of what you can do with AWS.
 
 _**Example 1:**_  Hosting the web shop.
-
 ![](imgs/runing a web shop on-premises vs. on AWS.PNG)
 
 
