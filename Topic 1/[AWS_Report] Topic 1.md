@@ -54,7 +54,7 @@ for Work, and Microsoft Office 365
 
 ###### :+1: What can we do with AWS?
 You can run any application on AWS by using one or a combination of services.The examples in this section will give you an idea of what you can do with AWS.
-
+ :sparkles: Example 1: Hosting a web shop.
 
 
 
