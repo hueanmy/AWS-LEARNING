@@ -9,6 +9,7 @@ This chapter covers
 - Interacting with AWS.
 ```
 ### 1. Cloud computing.
+-----
 
 ###### :+1: What is cloud computing?
 Here's a more official definition from the National Institute of Standards and Technology:
@@ -44,6 +45,7 @@ for Work, and Microsoft Office 365
 ![](imgs/cloud_computing_models.png)
 
 ### 2. AWS overview.
+------
 
 ###### :+1: What is AWS?
 >............
