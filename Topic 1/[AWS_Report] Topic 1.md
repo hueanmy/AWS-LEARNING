@@ -95,6 +95,19 @@ Using AWS tools, Auto Scaling, and Elastic Load Balancing, your application can 
 - **_Secure._**:
 AWS utilizes an end-to-end approach to secure and harden our infrastructure, including physical, operational, and software measures. For more information, see the AWS Security Center.
 
+###### :+1: How much does it cost?
+
+- **_Free Tier_**: 
+You can use some AWS services for free during the first 12 months after you sign up.
+The idea behind the Free Tier is to enable you to experiment with AWS and get some
+experience. Here is what’s included in the Free Tier:
+    > ■ 750 hours (roughly a month) of a small virtual server running Linux or Windows. This means you can run one virtual server the whole month or you can run 750 virtual servers for one hour.
+      ■ 750 hours (or roughly a month) of a load balancer.
+      ■ Object store with 5 GB of storage.
+      ■ Small database with 20 GB of storage, including backup.
+
+
+
 
 
     
