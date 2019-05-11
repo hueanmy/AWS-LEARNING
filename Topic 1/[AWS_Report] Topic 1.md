@@ -98,6 +98,7 @@ AWS utilizes an end-to-end approach to secure and harden our infrastructure, inc
 ###### :+1: How much does it cost?
 
 - **_Free Tier_**: 
+
 You can use some AWS services for free during the first 12 months after you sign up.
 The idea behind the Free Tier is to enable you to experiment with AWS and get some
 experience. Here is what’s included in the Free Tier:
@@ -110,7 +111,8 @@ experience. Here is what’s included in the Free Tier:
       
       ■ Small database with 20 GB of storage, including backup.
       
-- **_Free Tier_**: 
+- **_Billing example_**: 
+
 As mentioned earlier, you can be billed in several ways:
 
       ■ Based on hours of usage—If you use a server for 61 minutes, that’s usually counted as 2 hours.
