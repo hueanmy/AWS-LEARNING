@@ -36,7 +36,7 @@ the cloud, such as AWS Elastic Beanstalk, Google App Engine, and Heroku.
 the cloud, including office applications like Amazon WorkSpaces, Google Apps
 for Work, and Microsoft Office 365
 
-######:tada: Note:
+###### :tada: Note:
 > - AWS is a public cloud
 > - The AWS product portfolio contains IaaS, PaaS, and SaaS. Let’s take a more concrete look at what you can do with AWS. 
 
