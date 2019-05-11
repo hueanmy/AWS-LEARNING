@@ -68,6 +68,12 @@ _**Example 3:**_  Meeting legal and business data archival requirements Greg.
 _**Example 4:**_  Implementing a fault-tolerant system architecture Alexa.
 
 ###### :+1: How you can benefit from using AWS?
+What’s the most important advantage of using AWS? Cost savings, you might say. But
+saving money isn’t the only advantage. Let’s look at other ways you can benefit from
+using AWS.
+>
+**_Easy to use_**:
+AWS is designed to allow application providers, ISVs, and vendors to quickly and securely host your applications – whether an existing application or a new SaaS-based application. You can use the AWS Management Console or well-documented web services APIs to access AWS’s application hosting platform.
     
 
 
