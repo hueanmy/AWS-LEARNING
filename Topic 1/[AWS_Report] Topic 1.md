@@ -150,6 +150,8 @@ When you interact with AWS to configure or use services, you make calls to the A
 Next, we’ll give you an overview of the tools available to make calls to the AWS API.
 You can compare the ability of these tools to automate your daily tasks.
 
+![](imgs/interact with AWS API.PNG)
+
 - **_Management console_**: 
 
 
