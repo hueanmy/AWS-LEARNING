@@ -7,7 +7,7 @@ This chapter covers
 - Example of what you can do with AWS.
 - Creating and setting up an AWS account.
 ```
-####1. Cloud computing.
+#### 1. Cloud computing.
 
 ###### :+1: What is cloud computing?
 Here's a more official definition from the National Institute of Standards and Technology:
