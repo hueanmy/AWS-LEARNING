@@ -7,9 +7,9 @@ This chapter covers
 - Example of what you can do with AWS.
 - Creating and setting up an AWS account.
 ```
-#### 1. Cloud computing.
+### 1. Cloud computing.
 
-###### :+1: What is cloud computing?
+##### :+1: What is cloud computing?
 Here's a more official definition from the National Institute of Standards and Technology:
 
 >............
@@ -20,13 +20,13 @@ Here's a more official definition from the National Institute of Standards and T
 
 ![](imgs/cloud_computing.png)
 
-###### :+1: Clouds are often divided into the following types:
+##### :+1: Clouds are often divided into the following types:
 - `Public`: A cloud managed by an organization and open to use by the general public.
 - `Private`: A cloud that virtualizes and shares the IT infrastructure within a single
 organization.
 - `Hybird`: A mixture of a public and a private cloud.
 
-###### :+1: Cloud computing services also have several classifications:
+##### :+1: Cloud computing services also have several classifications:
 - `Infrastructure as a service (IaaS)`: Offers fundamental resources like computing,
 storage, and networking capabilities, using virtual servers such as Amazon EC2,
 Google Compute Engine, and Microsoft Azure virtual machines.
@@ -36,23 +36,23 @@ the cloud, such as AWS Elastic Beanstalk, Google App Engine, and Heroku.
 the cloud, including office applications like Amazon WorkSpaces, Google Apps
 for Work, and Microsoft Office 365
 
-###### :tada: Note:
+##### :tada: Note:
 > - AWS is a public cloud
 > - The AWS product portfolio contains IaaS, PaaS, and SaaS. Let’s take a more concrete look at what you can do with AWS. 
 
 ![](imgs/cloud_computing_models.png)
 
-#### 2. AWS overview.
+### 2. AWS overview.
 
-###### :+1: What is AWS?
+##### :+1: What is AWS?
 >............
 *Amazon Web Services (AWS) is a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help businesses scale and grow. Explore how millions of customers are currently leveraging AWS cloud products and solutions to build sophisticated applications with increased flexibility, scalability and reliability.*
 ............
 
-###### :+1: History.
+##### :+1: History.
 ![](imgs/amazon_history_timeline.png)
 
-###### :+1: What can we do with AWS?
+##### :+1: What can we do with AWS?
 You can run any application on AWS by using one or a combination of services.The examples in this section will give you an idea of what you can do with AWS.
 
 _**Example 1:**_  Hosting the web shop.
@@ -67,7 +67,7 @@ _**Example 3:**_  Meeting legal and business data archival requirements Greg.
 
 _**Example 4:**_  Implementing a fault-tolerant system architecture Alexa.
 
-###### :+1: How you can benefit from using AWS?
+##### :+1: How you can benefit from using AWS?
 What’s the most important advantage of using AWS? Cost savings, you might say. But
 saving money isn’t the only advantage. Let’s look at other ways you can benefit from
 using AWS.
