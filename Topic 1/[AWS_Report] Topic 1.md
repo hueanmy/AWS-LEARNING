@@ -6,6 +6,7 @@ This chapter covers
 - Benifits of using AWS.
 - Example of what you can do with AWS.
 - Exploring AWS services.
+- Interacting with AWS.
 ```
 ### 1. Cloud computing.
 
