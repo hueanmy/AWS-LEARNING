@@ -52,6 +52,8 @@ for Work, and Microsoft Office 365
 ###### :+1: History.
 ![](imgs/amazon_history_timeline.png)
 
+###### :+1: What can we do with AWS?
+You can run any application on AWS by using one or a combination of services.The examples in this section will give you an idea of what you can do with AWS.
 
 
 
