@@ -57,7 +57,7 @@ You can run any application on AWS by using one or a combination of services.The
 
 _**Example 1:**_  Hosting the web shop.
 
-![](imgs/runing a web shop on-premises vs. on AWS.PNG).
+![](imgs/runing_a_web_shop_on_premises_vs._on_AWS.PNG).
 
 _**Example 2:**_  Running a Java EE application in your private network.
 
