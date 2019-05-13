@@ -4,6 +4,8 @@
 
 #### AWS Developer Associate Certification Topic 
 
+>--------------------------------------------------------`Deadline: 14/5/2019`--------------------------------------------------------
+>
 >:smile: *Topic 1: AWS Overview*   
 >
 >>- Basic Concepts of Cloud Computing
@@ -19,6 +21,8 @@
 >> - Access Keys and Security Credentials
 >> - AWS Identity Federation
 >>   Practice: Use IAM roles to access resources from different AWS accounts
+>
+>-----------------------------------------------------------------------------------------------------------------------
 >
 >:smile:*Topic 3: Amazon Elastic Compute Cloud (EC2)*
 >
