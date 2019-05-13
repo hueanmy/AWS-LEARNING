@@ -113,15 +113,15 @@ As mentioned earlier, you can be billed in several ways:
 
 ###### :dart:Comparing alternatives.
 
-Following are some common features of cloud providers:
-      ■ Virtual servers (Linux and Windows)
-      ■ Object store
-      ■ Load balancer
-      ■ Message queuing
-      ■ Graphical user interface
-      ■ Command-line interface
+- Following are some common features of cloud providers:
+  - Virtual servers (Linux and Windows)
+  - Object store
+  -  Load balancer
+  -  Message queuing
+  - Graphical user interface
+  - Command-line interface
 
-Differences between AWS, Microsoft Azure, Google Cloud Platform, and OpenStack AWS Azure, Google Cloud.
+- Differences between AWS, Microsoft Azure, Google Cloud Platform, and OpenStack AWS Azure, Google Cloud.
 
 ![](imgs/difference_aws_azure_google_cloud_and_openstack.PNG)
 
