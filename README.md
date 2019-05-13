@@ -4,7 +4,7 @@
 
 #### AWS Developer Associate Certification Topic 
 
->--------------------------------------------------------`Deadline: 14/5/2019`--------------------------------------------------------
+>--------------------------------------------------------`Deadline: 14/5/2019`--------------------------------------------------
 >
 >:smile: *Topic 1: AWS Overview*   
 >
@@ -24,7 +24,7 @@
 >
 >-----------------------------------------------------------------------------------------------------------------------
 >
->:smile:*Topic 3: Amazon Elastic Compute Cloud (EC2)*
+>:smile:*Topic 3: Amazon Elastic Compute Cloud (EC2*
 >
 >> - Basic Concepts of EC2
 >> - EC2 Instance Creation Process
