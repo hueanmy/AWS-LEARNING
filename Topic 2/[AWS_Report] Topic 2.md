@@ -121,18 +121,49 @@ the request fails.
 
 #### :dart: Overview of Identity Management.
 
+##### :snowflake:Root User.
 
+When you create an AWS account, you create an AWS account root user identity, which you use to sign in
+to AWS. You can sign in to the AWS Management Console using this root user identity—that is, the email address and password that you provided when creating the account. This combination of your email
+address and password is also called your root user credentials.
 
-  - IAM Users
-    + An account can have many users
-    + An user can be present by an application, not a person
-  - Federating Existing Users
-    + If the users in your organization already have a way to be authenticated, such as by signing in to your corporate network, you don't have to create separate IAM users for them. Instead, you can federate those user identities into AWS.
+When you use your root user credentials, you have complete, unrestricted access to all resources in your
+AWS account, including access to your billing information and the ability to change your password. This
+level of access is necessary when you first set up your account. However, we recommend that you don't
+use root user credentials for everyday access. We especially recommend that you do not share your root
+user credentials with anyone, because doing so gives them unrestricted access to your account. It is not
+possible to restrict the permissions that are granted to the root user.
+The following sections explain how you can use IAM to create and manage user identity and permissions
+to provide secure, limited access to your AWS resources, both for yourself and for others who need to
+work with your AWS resources.
+
+##### :snowflake: IAM Users
+
+- The "identity" aspect of AWS Identity and Access Management (IAM) helps you with the question "Who is
+  that user?", often referred to as authentication. Instead of sharing your root user credentials with others,
+  you can create individual IAM users within your account that correspond to users in your organization.
+  IAM users are not separate accounts; they are users within your account. Each user can have its own
+  password for access to the AWS Management Console. You can also create an individual access key for
+  each user so that the user can make programmatic requests to work with resources in your account. In
+  the following figure, the users Li, Mateo, DevApp1, DevApp2, TestApp1, and TestApp2 have been added
+  to a single AWS account. Each user has its own credentials.
+- Notice that some of the users are actually applications (for example, DevApp1). An IAM user doesn't
+  have to represent an actual person; you can create an IAM user in order to generate an access key for an application that runs in your corporate network and needs AWS access.
+- We recommend that you create an IAM user for yourself and then assign yourself administrative
+  permissions for your account. You can then sign in as that user to add more users as needed.
+
+##### :snowflake: Federating Existing Users
+
+If the users in your organization already have a way to be authenticated, such as by signing in to your
+corporate network, you don't have to create separate IAM users for them. Instead, you can federate those
+user identities into AWS.
+The following diagram shows how a user can use IAM to get temporary AWS security credentials to
+access resources in your AWS account.
+
 ![](imgs/iam-intro-federation.png)
-    + To use identity federation with Internet identity providers, we recommend you use [Amazon Cognito](https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html)
-###1.2 Permission and Policies
-  - A policy is an object in AWS that, when associated with an identity or resource, defines their permissions. AWS evaluates these policies when a principal uses an IAM entity (user or role) to make a request. Permissions in the policies determine whether the request is allowed or denied. Most policies are stored in AWS as JSON documents
+
   - **Policies and Accounts**
+
   - **Policies and Users**
     ```json
     {
@@ -146,19 +177,27 @@ the request fails.
     ```
     + Policies are summarized in three tables: the [policy summary](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_understand-policy-summary.html), the [service summary](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_understand-service-summary.html), and the [action summary](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_understand-action-summary.html). The policy summary table includes a list of services. Choose a service there to see the service summary. This summary table includes a list of the actions and associated permissions for the chosen service. You can choose an action from that table to view the action summary. This table includes a list of resources and conditions for the chosen action
     ![](imgs/policy_summaries-diagram.png)
+    
   - **Policies and Groups**
+
   - **Federated Users and Roles**: Federated users don't have permanent identities in your AWS account the way that IAM users do. To assign permissions to federated users, you can create an entity referred to as a role and define permissions for the role. When a federated user signs in to AWS, the user is associated with the role and is granted the permissions that are defined in the role
+
   - **Identity-based and Resource-based Policies**
     + Identity-based policies
       - Managed policies: AWS managed policies & Customer managed policies
       - Inline policies:
     + Resource-based policies: control what actions a specified principal can perform on that resource and under what conditions. Resource-based policies are inline policies, and there are no managed resource-based policies
 ###1.3 Security Features Outside of IAM
+    
   - The user can access resource of AWS without IAM such as Amazon EC2, Amazon RDS, Amazon WorkSpaces, Amazon WorkDocs by key pair or username, password
-##2. How to use?
+  ##2. How to use?
+
   - AWS Management Console
+
   - AWS Command Line Tools
+
   - AWS SDKs
+
   - IAM HTTPS API
 
 Note: [AWS Services That Work with IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_aws-services-that-work-with-iam.html)
