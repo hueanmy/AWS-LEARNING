@@ -22,52 +22,54 @@
 >> - AWS Identity Federation
 >>   Practice: Use IAM roles to access resources from different AWS accounts
 >
->-----------------------------------------------------------------------------------------------------------------------
+>-------------------------------------------------------`Deadline: 23/5/2019`------------------------------------------------------
 >
->:smile:*Topic 3: Amazon Elastic Compute Cloud (EC2*
+>> :smile:*Topic 3: VPC*
+>>
+>> > - Basic Concepts of VPC
+>> > - VPC – Deep Dive
+>> > - VPC – NAT, VPN, and Peering
+>
+>----------------------------------------------------------------------------------------------------------------------------------------------
+>
+>:smile:*Topic 4: Amazon Elastic Compute Cloud (EC2*
 >
 >> - Basic Concepts of EC2
 >> - EC2 Instance Creation Process
 >> - EC2 Advanced Features
 >
->:smile:*Topic 4: Simple Storage Service (S3)*
+>:smile:*Topic 5: Simple Storage Service (S3)*
 >
 >> - Basic Concepts of S3
 >> - S3 Deep Dive
 >>   Practice: Perform Amazon S3 bucket operations
 >
->:smile: *Topic 5: AWS DB Services*
+>:smile: *Topic 6: AWS DB Services*
 >
 >> - Basic Concepts of RDS
 >> - RDS Backups and Replicas
 >> - RDS Management and Maintenance
 >> - Other Database Services
 >
->:smile:*Topic 6: AWS DynamoDB*
+>:smile:*Topic 7: AWS DynamoDB*
 >
 >> - Basic Concepts of DynamoDB  
 >> - Capacity and Throughput Management
 >> - Access Control and Data Migration
 >
->:smile:*Topic 7: AWS Application Services*   
+>:smile:*Topic 8: AWS Application Services*   
 >
 >> - Basic Concepts of SQS  
 >> - SQS – Deep Dive
 >> - Simple Notification Service – Overview
 >> - Other Application Services – Overview
 >
->:smile:*Topic 8: Cost Management*   T.B.D   
->:smile:*Topic 9: Management Tools, and Kinesis*  
+>:smile:*Topic 9: Cost Management*   T.B.D   
+>:smile:*Topic 10: Management Tools, and Kinesis*  
 >
 >> - Basic Concepts of CloudFormation
 >> - Basic Concepts of Elastic Beanstalk
 >> - Basic Concepts of Kinesis
->
->:smile:*Topic 10: VPC*
->
->> - Basic Concepts of VPC
->> - VPC – Deep Dive
->> - VPC – NAT, VPN, and Peering
 >
 >:smile:*Topic 11: Route 53*
 >
