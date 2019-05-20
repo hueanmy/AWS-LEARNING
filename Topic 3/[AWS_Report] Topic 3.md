@@ -78,11 +78,58 @@
 ### 1.7 AWS Private Global Network Considerations
   - AWS provides a high-performance, and low-latency private global network that delivers a secure cloud computing environment to support your networking needs. AWS Regions are connected to multiple Internet Service Providers (ISPs) as well as to a private global network backbone, which provides improved network performance for cross-Region traffic sent by customers.
 
+## 2. VPC and Subnets relationship
+  - `VPC` 1<----->n `subnets`
+  - Each `subnet` must reside entirely within one Availability Zone and cannot span zones
+    + Availability Zones are distinct locations that are engineered to be isolated from failures in other Availability Zones
+![](imgs/subnets-diagram.png)
+
+  - A `VPC` or `subnet` must have `IPv4 CIDR bock` and optional `IPv6 CIDR block`
+  - The CIDR block of a `subnet` can be the same as the CIDR block for the `VPC` (in case `Single public subnet`) and cannot overlap in multiple subnets case
+  - The first four IP addresses and the last IP address in each subnet CIDR block are not available for instances:
+    + *First address*: Network address
+    + *Second address*: Reserved by AWS for the VPC router
+    + *Third address*: IP address of the DNS server
+    + *Fourth address*: Reserved by AWS for future use
+    + *Last address*: Network broadcast address
+  - We can create a VPC with a publicly routable CIDR block that falls outside of the private IPv4 address ranges specified in RFC 1918
+  - Multiple CIDR blocks in a VPC
+  ![](imgs/vpc-multiple-cidrs.png)
+    + <span style="color:red">We have two network address at here?</span>
+    + **Rules to add `IPv4 CIDR blocks` into `VPC`**
+      - Block size is between `/28 netmask and /16 netmask`
+      - CIDR blocks must not overlap
+      - [Restriction on the ranges of IPv4](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html#add-cidr-block-restrictions)
+      - Cannot increase/decrease size of an existing CIDR block
+      - `Subnets per VPC not over 200` - `IPv4 CIDR blocks per VPC not over 5` - `IPv6 CIDR blocks per VPC is always 1`
+      - Range of CIDR block of subnet cannot > range of CIDR in any route tables <span style="color:red"><== Conflict with Single public subnet ?</span>
+      - If you've enabled your VPC for ClassicLink, you can associate CIDR blocks from the 10.0.0.0/16 and 10.1.0.0/16 ranges, but you cannot associate any other CIDR block from the 10.0.0.0/8 range
+      - ...
+      
+      Note: Cannot disassociate the primary CIDR block of VPC
+    + **Rules to add `IPv6 CIDR blocks` into `VPC`**
+      - VPC default size: `prefix /56`
+      - Subnet default size: `prefix /64`
+      Note: Cannot disassociate any CIDR block of VPC, however, in next time, you cannot expect to receive the same CIDR block for setting
+  - Subnet Routing:
+    + Each subnet must be associated with a route table, which specifies the allowed routes for outbound traffic leaving the subnet
+  - Subnet Security: `security groups` and `network ACLs`
+    + `Security groups` control inbound and outbound traffic for `your instances`
+    + `Network ACLs` control inbound and outbound traffic for `your subnets`
+## 3. Default VPC and Default Subnets
+
+### 2.1 Sizing
+  - **VPC:**
 ## 2. Practices
 ### 2.1 VPC with IPv4
-
 ### 2.2 VPC with IPv6
 
+## 3. Scenarios
+### Scenario 1: VPC with a Single Public Subnet
+  - Your instances run in a private, isolated section of the AWS cloud with direct access to the Internet. Network access control lists and security groups can be used to provide strict control over inbound and outbound network traffic to your instances.
+
+  - Creates: A /16 network (VPC) with a /24 subnet. Public subnet instances use Elastic IPs or Public IPs to access the Internet.
+  ![](imgs\scenarios_1.png)
 
 ## References
 [Amazon VPC](https://docs.aws.amazon.com/en_us/vpc/latest/userguide/what-is-amazon-vpc.html)
