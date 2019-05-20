@@ -117,7 +117,7 @@
     + `Security groups` control inbound and outbound traffic for `your instances`
     + `Network ACLs` control inbound and outbound traffic for `your subnets`
 ## 3. Default VPC and Default Subnets
-TODO
+ TODO Todo
 ### 2.1 Sizing
   - **VPC:**
 ## 2. Practices
